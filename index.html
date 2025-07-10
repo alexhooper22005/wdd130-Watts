@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="plan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
     <div id="wrapper">
         <header>
-            <img src="" alt="logo">
-            <h1>[Voyage]</h1>
+            <h1>Voyage</h1>
             <h2>Plan Less. Travel More.</h2>
-            <p>Voyage is your travel compantion designed to simplify how you discover destinations, calculate costs, and build your perfect trip itinerary with ease. Whether you're daydreaming or diving into details, we've got every mile mapped.</p>
+            <p>Voyage is your travel companion designed to simplify how you discover destinations, calculate costs, and build your perfect trip itinerary with ease. Whether you're daydreaming or diving into details, we've got every mile mapped.</p>
         </header>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="Destinations/index.html">Destinations</a>
-            <a href="/Plan/indext.html">Plan</a>
-        </nav>
+        <div class="sidebar">
+            <img src="images/watts.logo" alt="logo">
+            <a class="active" href="#"><i class="fa fa-fw fa-home"></i> <span>Home</span></a> 
+            <a href="#"><i class="fa fa-fw fa-envelope"></i> <span>Destinations</span></a> 
+            <a href="#"><i class="fa fa-fw fa-user"></i> <span>Plan</span></a>
+        </div>
+
         
-        <main>
-            <img src="">
-            <section>
-                <h1>Find Your Next Destination</h1>
-                <p></p>
-                <img src="" alt="">
+            <img src="images/header.jpg" alt="Hero Image" class="backgroundimage">
+       
+        <main class="sections">
+            <section class="left">
+                <h2>Find Your Next Destination</h2>
+                <p>Browse curated vacation spots around the world with cost estimates, nearby stays, and must-see highlights — all tailored to your preferences.</p>
+                <img src="images/section_left.jpg">
+                <a href="#" class="button">Explore Destinations</a>
             </section>
-            <section>
-                <h1>Your Trip. Your Way</h1>
-                <p></p>
+            <section class="right">
+                <h2>Your Trip. Your Way</h2>
+                <p>Choose where to stay, how to get there, and what to do. Our customizable planner helps you organize your itinerary and stay on budget — your travel schedule, all-in-one place.</p>
+                <img src="images/section_right.jpg">
+                <a href="#" class="button">Start Planning</a>
             </section>
         </main>
         
         <footer>
             <p>&copy; 2025 Voyage</p>
-            <a href="index.html">Home</a>
-            <a href="/Destinations/index.html">Destinations</a>
-            <a href="/Plan/indext.html">Plan</a>
+            <a href="#">Home</a>
+            <a href="#">Destinations</a>
+            <a href="#">Plan</a>
         </footer>
     </div>
     
