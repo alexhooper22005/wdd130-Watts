@@ -49,9 +49,6 @@ body {
 .sidebar img {
   width: 125px;
 }
-.sidebar img:hover {
-  size: 100%;
-}
 .sidebar {
   height: 100%;
   width: 120px; /* collapsed */
